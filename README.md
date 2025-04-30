@@ -4,7 +4,7 @@ QUBIKOS is a benchmarking tool designed to evaluate quantum layout synthesis too
 
 ## 📌 Overview
 
-QUBIKOS generates benchmark circuits that respect a given hardware topology and ensures the minimal number of SWAP gates is known. This allows for accurate assessment of SWAP insertion efficiency in quantum compilers and layout synthesis tools.
+QUBIKOS generates benchmark circuits that respect a given hardware topology and ensure the minimal number of SWAP gates needed is known. This allows for an accurate assessment of SWAP insertion efficiency in quantum compilers and layout synthesis tools.
 
 ## ⚙️ How to Use
 
