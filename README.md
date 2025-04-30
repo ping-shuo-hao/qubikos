@@ -1,4 +1,4 @@
-# QUBIKOS – QUantum Benchmark wIth Known Optimal SWAP Counts
+# QUBIKOS – QUantum Benchmark wIth Known-Optimal SWAP Counts
 
 QUBIKOS is a benchmarking tool designed to evaluate quantum layout synthesis tools by generating quantum circuits with a known optimal number of SWAP operations.
 
