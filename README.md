@@ -32,7 +32,7 @@ benchmark_circuit, compiled_circuit = generate_qubikos_circuit(
 - Coupling graph: Describes the hardware connectivity.
 - The function returns two `QuantumCircuit` objects (`benchmark_circuit` and `compiled_circuit`).
 
-> ⚠️ **Note:** If the number of two-qubit gates is too small to satisfy the construction constraints, the output circuit may contain more gates than specified.
+> ⚠️ **Note:** If the number of two-qubit gates is too small to satisfy the construction constraints, the output circuit may contain more two-qubit gates than specified.
 
 ## 📄 Citation
 
