@@ -274,7 +274,7 @@ def generate_qubikos_circuit(benchmark_file_name,compiled_file_name,physical_cou
       current_single_qubit_gates_num=remaining_single_qubit_gates
     else:
       current_redundant=random.randint(0,two_qubit_redundant)
-      current_single_qubit_gates_num=random.randint(0,remaining_single_qubit_gates)
+      current_single_qubit_gates_num=random.randint(0,int(remaining_single_qubit_gates/number_of_swap*2))
 #      print("Before",redundant)
 #      print("Number of redudant gates",current_redundant)
       two_qubit_redundant-=current_redundant
